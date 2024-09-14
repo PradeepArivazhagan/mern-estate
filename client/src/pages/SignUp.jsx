@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -43,16 +42,6 @@ export default function Signup() {
     <div className="p-3 max-w-lg mx-auto">
       <h1 className="text-3xl text-center font-semibold my-7">Sign Up</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-=======
-import React from "react";
-import { Link } from "react-router-dom";
-
-export default function Signup() {
-  return (
-    <div className="p-3 max-w-lg mx-auto">
-      <h1 className="text-3xl text-center font-semibold my-7">Sign Up</h1>
-      <form className="flex flex-col gap-4">
->>>>>>> bb0eb83162d45c64136ef50f3ca2414b15998260
         <input
           type="text"
           placeholder="Username"
