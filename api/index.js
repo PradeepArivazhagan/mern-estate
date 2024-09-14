@@ -6,8 +6,6 @@ dotenv.config();
 
 const app = express();
 
-//bjPBuTj0rO2LKKil
-
 mongoose
   .connect(process.env.MONGO)
   .then(() => {
